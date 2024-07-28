@@ -1,0 +1,36 @@
+
+.one{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 70px 70px 70px 70px 70px;
+    width: 50%;
+    height: 60%;
+    
+    
+    float: left;
+    
+}
+.two{
+    display: flex;
+    float: right;
+    background-color: rgb(48, 214, 181);
+    align-items: center;
+    height: 400px;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    
+}
+@media(max-width: 500px){
+    .one, .two{
+        width: 100%;
+    
+    }
+}
+.zero{
+    flex-direction: column-reverse;
+}
+.zero{
+    display: flex;
+    flex-wrap: wrap;
+}
